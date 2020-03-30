@@ -6,22 +6,31 @@ using System.Threading.Tasks;
 
 namespace SimpleGuessingNumberGame
 {
-    class Program
+    public class Program
     {
-        static int drawNumber()
+		public static void drawPotato()
+		{
+			Console.WriteLine("   **");
+			Console.WriteLine(" **  **");
+			Console.WriteLine("**    **");
+			Console.WriteLine("**    **");
+			Console.WriteLine(" **  **");
+			Console.WriteLine("   **");
+		}
+        public static int drawNumber()
         {
-
             Random rnd = new Random();
             int randomNumber = rnd.Next(1, 101);
             return randomNumber;
         }
-        static void Main(string[] args)
+		
+        public static void Main(string[] args)
         {
             int drawnNumber = drawNumber();
             int guessCounter = 0;
+			Console.Write("Guess a number between 1 and 100: ");
             while (true)
             {
-                Console.Write("Guess a number between 1 and 100: ");
                 int number = int.Parse(Console.ReadLine());
                 guessCounter++;
                 if (number > 0 && number < 101)
@@ -37,6 +46,7 @@ namespace SimpleGuessingNumberGame
                     else if (number == drawnNumber)
                     {
                         Console.WriteLine("Congratulations, you've guessed right. Guesses made: {0} \nHere is a picture of a potato.", guessCounter);
+						drawPotato();
                         break;
                     }
                 }

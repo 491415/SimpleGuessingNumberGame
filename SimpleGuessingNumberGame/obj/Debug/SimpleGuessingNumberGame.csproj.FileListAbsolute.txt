@@ -1,6 +1,0 @@
-F:\Programming\C#\SimpleGuessingNumberGame\SimpleGuessingNumberGame\bin\Debug\SimpleGuessingNumberGame.exe.config
-F:\Programming\C#\SimpleGuessingNumberGame\SimpleGuessingNumberGame\bin\Debug\SimpleGuessingNumberGame.exe
-F:\Programming\C#\SimpleGuessingNumberGame\SimpleGuessingNumberGame\bin\Debug\SimpleGuessingNumberGame.pdb
-F:\Programming\C#\SimpleGuessingNumberGame\SimpleGuessingNumberGame\obj\Debug\SimpleGuessingNumberGame.csproj.CoreCompileInputs.cache
-F:\Programming\C#\SimpleGuessingNumberGame\SimpleGuessingNumberGame\obj\Debug\SimpleGuessingNumberGame.exe
-F:\Programming\C#\SimpleGuessingNumberGame\SimpleGuessingNumberGame\obj\Debug\SimpleGuessingNumberGame.pdb
